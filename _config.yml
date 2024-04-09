@@ -79,9 +79,10 @@ search:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.6"
-  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
-  # See also docs/ui-components/code
+  version: "10.9"
+  # Put any additional configuration, such as setting the theme
+  config:
+    startOnLoad: false # required otherwise mermaid run() runs twice
 
 # Enable or disable heading anchors
 heading_anchors: true
